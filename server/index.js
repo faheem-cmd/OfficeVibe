@@ -24,7 +24,7 @@ app.use(express.static("public"));
 
 // Define a route to render HTML
 app.get("/", (req, res) => {
-  res.render("index", { title: "Express with EJS" });
+  res.render("index", { title: "Welcome Home" });
 });
 
 server.listen(8000, () => {
