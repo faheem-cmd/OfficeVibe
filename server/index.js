@@ -27,6 +27,7 @@ app.get("/", (req, res) => {
   res.render("index", { title: "Welcome Home" });
 });
 
+// starting server
 server.listen(8000, () => {
   console.log(`Server started on port 8000`);
 });
